@@ -1,5 +1,5 @@
-const {watch} = require ('gulp'),
-// watch = require ('gulp-watch');
+var gulp = require ('gulp'),
+watch = require ('gulp-watch');
 
 gulp.task('default', function(){
     
